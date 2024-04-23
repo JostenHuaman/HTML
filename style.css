@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.color1 {color: #010108;}
+.color2 {color: #354447;}
+.color3 {color: #586c75;}
+.color4 {color: #c1ccc7;}
+.color5 {color: #f9f9f9;}
+
+header h1{
+    font-size: 48px;
+    color: #354447;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.name-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.welcome-gif{ 
+    width: 140px;
+    height: 140px;
+}
+
+.navbar{
+    padding: 10px 20px;
+    border-bottom: 8px solid #354447;
+    width: auto;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: flex;
+    margin-right: 12px;
+}
+
+.navbar ul li img{
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.navbar .navbar-item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #354447;
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+li:hover{    
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+main{
+    height: 71.8vh;
+}
+
+.navbar .navbar-item:hover{
+    color: #010108;
+}
+
+.content-main{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-main img{
+    width: 600px;
+    height: 100%;
+    image-resolution: from-image;
+    image-rendering: auto;
+}
+
+.content-description{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.content-description h2{
+    font-size: 36px;
+    color: #354447;
+    margin-bottom: 20px;
+}
+
+.content-description p{
+    font-size: 24px;
+    color: #586c75;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #354447;
+    color: #f9f9f9;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+footer h3{
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+.social-media ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #f9f9f9;
+}
+
+.social-media ul li img{
+    padding-top: 8px;
+    width: 40px;
+    height: 48px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+
+
