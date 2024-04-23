@@ -31,6 +31,7 @@ header h1{
 .welcome-gif{ 
     width: 140px;
     height: 140px;
+    padding-right: 12px;
 }
 
 .navbar{
@@ -149,5 +150,71 @@ footer h3{
     width: 200px;
 }
 
+/* Page Habilidades */
 
+.main-habilidades{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 460px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #354447;
+}
+
+.habilidades h2{
+    font-size: 42px;
+    color: #354447;
+    margin-top: 20px;
+    border-bottom: 3px solid #354447;
+}
+
+.habilidades p{
+    font-size: 20px;
+    color: #354447;
+    margin: 20px;
+}
+
+.habilidades-list{
+    display: flex;
+}
+
+.habilidades ul{
+    list-style-type:square;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.habilidades ul li{
+    font-size: 16px;
+    margin: 8px;
+    display: flex;
+}
+
+.habilidades ul li p{
+    margin: 0;
+    padding: 0;
+    color: #354447;
+}
+
+.habilidades ul li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.habilidades ul li:hover{
+    font-size: 24px;
+    scale: 1.4;
+    transition: 0.5s;
+    color: #010108;
+}
